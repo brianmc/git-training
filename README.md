@@ -52,11 +52,26 @@ git commit -a -m "Committing this change"
 
 ## Remotes (GitHub/Stash/etc)  
 
-### Forking a Repository
+### Forking a Repository  
 
+https://github.com/brianmc/git-training  
+  
 ### Cloning a Repository
 ````
 git clone https://github.com/brianmc/git-training.git
 ````
 
-### Syncing 
+### Making changes
+````
+git status
+git commit -a -m "Committing this change"
+````
+   
+### Pushing Changes to your fork
+````
+git push origin master
+````
+
+### Making a Pull Request
+
+
