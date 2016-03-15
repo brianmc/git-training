@@ -17,6 +17,46 @@ git clone https://github.com/AuthorizeNet/sdk-java.git
 ````
 git config -l  
 ````
-Edit .gitconfig
+````
+git config --add user.email=bmcmanus@visa.com 
+````
+  
+Edit .gitconfig  
 
-## Remotes (GitHub/Stash/etc)
+````
+user.name=brianmc
+user.email=bmgtech@gmail.com
+http.proxy=http://internet.visa.com:80
+https.proxy=http://internet.visa.com:443
+````
+
+### Add a file  
+````
+git add test-brian.txt
+````
+
+### Git Status
+*** The most used command ***
+````
+git status
+````
+
+### Commit a file
+```` 
+git commit -a -m "Committing this change"
+````
+
+### Branching
+
+
+
+## Remotes (GitHub/Stash/etc)  
+
+### Forking a Repository
+
+### Cloning a Repository
+````
+git clone https://github.com/brianmc/git-training.git
+````
+
+### Syncing 
