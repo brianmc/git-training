@@ -46,10 +46,6 @@ git status
 git commit -a -m "Committing this change"
 ````
 
-### Branching
-
-
-
 ## Remotes (GitHub/Stash/etc)  
 
 ### Forking a Repository  
@@ -66,12 +62,39 @@ git clone https://github.com/brianmc/git-training.git
 git status
 git commit -a -m "Committing this change"
 ````
-   
+### Undoing changes
+````
+git checkout -- <filename>
+````
+````
+git fetch origin
+git reset --hard origin/master
+````
+
 ### Pushing Changes to your fork
 ````
 git push origin master
 ````
 
 ### Making a Pull Request
+
+
+### Branching
+
+````
+git checkout -b newfeaturebranch
+git checkout master
+git checkout newfeaturebranch
+````
+Make some changes in newfeaturebranch
+```
+git diff master newfeaturebranch
+````
+git checkout master
+git merge newfeaturebranch
+````
+
+
+
 
 
